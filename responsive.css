@@ -1,0 +1,104 @@
+/* Breakpoint reponsive */
+
+/* responsive tablet */
+@media (max-width: 1024px) {
+  .article img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .aside {
+    padding: 15px;
+    flex: 2;
+  }
+
+  .aside img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+/* responsive mobile */
+@media (max-width: 576px) {
+  .navbar {
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+  }
+
+  .nav-toggle {
+    display: block;
+    margin-right: 50px;
+  }
+  .nav-items {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 38px;
+    right: 0;
+    background-color: #17181c;
+    width: 100%;
+    margin: 0;
+  }
+
+  .main .container {
+    display: block;
+  }
+
+  .aside img {
+    float: left;
+    margin: 10px;
+  }
+
+  .aside h3 {
+    text-align: left;
+    margin-bottom: 5px;
+  }
+
+  .aside p {
+    font-size: 0.8em;
+  }
+
+  .card {
+    width: 35%;
+  }
+  .card img {
+    margin-bottom: 5px;
+    height: 60px;
+  }
+  .project {
+    padding: 20px;
+  }
+
+  .contact .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .contact .button {
+    width: 100px;
+  }
+}
+
+/* breakpoint 400px */
+@media (max-width: 400px) {
+  .article img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .my-study {
+    width: 80%;
+    margin: 10px;
+  }
+
+  .contact .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact .button {
+    width: 80%;
+    margin: 5px auto;
+  }
+}
