@@ -26,10 +26,9 @@ function putUserList(data) {
     let userData = [];
     if (localStorage.getItem(storageKey) !== null) {
       userData = JSON.parse(localStorage.getItem(storageKey));
+      userData.unshift(data);
+      localStorage.setItem(storageKey, JSON.stringify(userData));
     }
-
-    userData.unshift(data);
-    localStorage.setItem(storageKey, JSON.stringify(userData));
   }
 }
 
