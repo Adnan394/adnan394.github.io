@@ -6,141 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
     <title>ADNAN PORTOFOLIO</title>
   </head>
   <body>
+    <a href="https://wa.me/6283156437871/" target="_blank"><img src="img/wa.png" id="wa" width="50px" height="50px" alt="" /></a>
     <!-- header -->
-    <header>
-      <nav class="navbar">
-        <h1>ADNAN PORTO</h1>
-        <ul class="nav-items">
-          <li class="nav-link"><a href="#about">About</a></li>
-          <li class="nav-link"><a href="#project">Project</a></li>
-          <li class="nav-link"><a href="#study">Study</a></li>
-          <li class="nav-link"><a href="#contact">Contact</a></li>
-        </ul>
-        <div class="nav-toggle">
-          <h1>|||</h1>
-        </div>
-      </nav>
-    </header>
-
-    <!-- main -->
-    <main class="main" id="about">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
       <div class="container">
-        <!-- article -->
-        <article class="article">
-          <h1>About Me</h1>
-          <img src="img/ilustration.png" alt="" width="400px" height="400px" />
-          <p>
-            Perkenalkan nama saya adnan ega maulana, umur saya masih 19 tahun dan saya tinggal di daerah tegal kecamatan balapulang.
-            saya melewati berbagai jenjang pendidikan selama ini, dimulai dari sekolah dasar(SD), sekolah menengah pertama(SMP), sekolah menengah atas(SMA), dan sekarang masih aktif sebagai mahsiswa di salah satu institut teknologi telkom yang berada di purwokerto.
-            saya bercita cita menjadi sebuah ahli IT, dan untuk fokus kali ini sedang belajar mencoba belajar menjadi seorang Front-End developer.
-          </p>
-          <br />
-          <p>
-           pada bootcamp yang di adakan oleh IdCamp dan dicoding ini saya berharap bisa menambah ilmu sata khususnya dalam pengembangan web bagian front end developer. dan semoga saya bisa menyelesaikan bootcamp ini dengan baik dan bisa mengimplementasikan
-           kemmampuan development web dalam ruang lingkup kerja maupun internship. saya ucapkan terimaksih kepada IdCamp dan dicoding karena telah mengadakan bootcamp yang sangat membantu sekali bagi kami yang ingin belajar ilmu tentang coding.
-          </p>
-        </article>
-        <!-- aside -->
-        <aside class="aside">
-          <img src="img/Adnan.jpg" alt="" width="100px" height="100px" />
-          <h3>Profile</h3>
-          <p><span>Nama :</span> Adnan Ega Maulana</p>
-          <p><span>Umur :</span> 19 tahun</p>
-          <p><span>Asal :</span> Tegal</p>
-          <p><span>Study :</span> Institut Tekonologi Telkom Purwokerto</p>
-          <p><span>Keahlian :</span> Design, Programming, Problem Solving</p>
-        </aside>
-      </div>
-      <!-- project side -->
-      <h1 style="text-align: center" id="project">Project</h1>
-      <div class="project">
-        <div class="card">
-          <img src="img/html5.png" alt="" />
-          <h3>HTML5</h3>
-          <p>Sematic HTML in version 5</p>
-        </div>
-        <div class="card">
-          <img src="img/css3.png" alt="" />
-          <h3>CSS3</h3>
-          <p>styling web using CSS3</p>
-        </div>
-        <div class="card">
-          <img src="img/js.png" alt="" />
-          <h3>JavaScript</h3>
-          <p>DOM manipulation using JavaScript</p>
-        </div>
-        <div class="card">
-          <img src="img/bootstrap.jpg" alt="" />
-          <h3>Bootstrap</h3>
-          <p>create responsive web using bootstrap</p>
-        </div>
-        <div class="card">
-          <img src="img/jquerry.png" alt="" />
-          <h3>JQuerry</h3>
-          <p>use library JS to easier</p>
-        </div>
-        <div class="card">
-          <img src="img/mysql.png" alt="" />
-          <h3>MySql</h3>
-          <p>diagram realational database</p>
-        </div>
-        <div class="card">
-          <img src="img/github.png" alt="" />
-          <h3>GitHub</h3>
-          <p>GIT platform to upload file</p>
-        </div>
-        <div class="card">
-          <img src="img/nodejs.png" alt="" />
-          <h3>NodeJS</h3>
-          <p>JavaScript with framework</p>
+        <a class="navbar-brand" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-workspace text-white m-2 t-3" viewBox="0 0 16 16">
+            <path d="M4 16s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H4Zm4-5.95a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" />
+            <path d="M2 1a2 2 0 0 0-2 2v9.5A1.5 1.5 0 0 0 1.5 14h.653a5.373 5.373 0 0 1 1.066-2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v9h-2.219c.554.654.89 1.373 1.066 2h.653a1.5 1.5 0 0 0 1.5-1.5V3a2 2 0 0 0-2-2H2Z" />
+          </svg>
+          ADNAN PORTOFOLIO</a
+        >
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#about">About</a>
+            <a class="nav-link" href="#project">Project</a>
+            <a class="nav-link" href="#study">Study</a>
+            <a class="nav-link" href="#contact">Contact</a>
+          </div>
         </div>
       </div>
+    </nav>
 
-      <!-- study -->
-      <h1 style="text-align: center" id="study">Study</h1>
-      <div class="study">
-        <div class="my-study">
-          <h3>SD</h3>
-          <p>Saya bersekolah di SDN Sesepan 01 dan menyelesaikan selama 6 tahun</p>
+    <!-- jumbotron -->
+    <div class="jumbotron">
+      <h1>My Program</h1>
+      <p style="z-index: 1">ADNAN EGA MAULANA | STUDENT, FREELANCER, DEVELOPER</p>
+    </div>
+
+    <!-- programming tools -->
+    <div class="container1">
+      <img src="img/html5.png" height="40px" width="50px" id="img1" />
+      <img src="img/css3.png" height="30px" width="40px" id="img2" />
+      <img src="img/js.png" height="30px" width="30px" id="img3" />
+      <img src="img/nodejs.png" height="30px" width="40px" id="img4" />
+      <img src="img/reactjs.png" height="30px" width="30px" id="img1" />
+      <img src="img/bootstrap.jpg" height="30px" width="40px" id="img2" />
+      <img src="img/php.png" height="30px" width="40px" id="img3" />
+      <img src="img/laravel.png" height="30px" width="30px" id="img4" />
+      <img src="img/github.png" height="30px" width="40px" id="img1" />
+      <img src="img/jquerry.png" height="30px" width="40px" id="img2" />
+      <img src="img/figma.png" height="30px" width="20px" id="img3" />
+      <img src="img/mysql.png" height="30px" width="40px" id="img4" />
+    </div>
+
+    <!-- about -->
+    <div class="about overflow-hidden">
+      <div class="row justify-content-center">
+        <h2 style="text-align: center">About Me</h2>
+        <div class="col col-md-4 m-3 text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, aspernatur veritatis excepturi dolor placeat non. Voluptate recusandae reiciendis quam quos mollitia porro sapiente, ipsa eius natus perspiciatis! Autem ratione quas
+          consequatur eum optio eos nisi. Itaque blanditiis numquam saepe doloremque, officia omnis id eveniet dolorum eaque vel ipsam cumque fugit.
         </div>
-        <div class="my-study">
-          <h3>SMP</h3>
-          <p>Saya melanjutkan di SMPN 2 balapulang, dan lulus selama 3 tahun mendapatkan nilai tertinggi di kelas</p>
-        </div>
-        <div class="my-study">
-          <h3>SMA</h3>
-          <p>saya melanjutakan pendidikan di SMAN 3 SLAWI, dan lulus selama 3 tahun</p>
-        </div>
-        <div class="my-study">
-          <h3>perguruan tinggi</h3>
-          <p>sekarang saya mahasiswa aktif di Institut teknologi telkom purwokerto, dan mengambil jurusan T.Informatika</p>
+        <div class="col col-md-4 m-3 text-center">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, architecto! Totam vero earum dignissimos, praesentium facilis quia vitae nemo minus accusamus molestiae dolore quaerat error velit debitis saepe amet id beatae
+          aliquid eum dolorem facere aut? Temporibus, voluptatibus, magni quas obcaecati ipsam vero esse eaque dignissimos, omnis fugiat recusandae aliquid!s
         </div>
       </div>
-
-      <!-- contact -->
-      <h1 style="text-align: center" id="contact">Contact</h1>
-      <div class="contact">
-        <div class="container">
-          <a href="https://wa.me/6283156437871"><div class="button">WhatsApp</div></a>
-          <a href="https://www.instagram.com/adnangandul"><div class="button">Instagram</div></a>
-          <a href="mailto:adnangandul82@gmail.com"><div class="button">Gmail</div></a>
-        </div>
-      </div>
-
-      <form>
-        <input type="text" id="input" placeholder="masukan komentar anda">
-        <button type="submit" id="submit">KIRIM</button>
-      </form>
-      <div class="comment">
-
-      </div>
-    <!-- footer -->
-    <footer>
-      <p>copyright design by Adnan</p>
-    </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="porto.js"></script>
   </body>
 </html>
+s
