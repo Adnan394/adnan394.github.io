@@ -28,14 +28,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: start;
+  align-items: center;
   position: relative;
   z-index: -10;
-  margin-top: 70px;
+  margin-top: 60px;
 }
 
 .jumbotron * {
-  margin-left: 50px;
   transition: ease;
 }
 
@@ -90,17 +89,6 @@ body {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
   position: absolute;
   bottom: 0;
-}
-
-.jumbotron::before {
-  content: "";
-  width: 280px;
-  height: 560px;
-  background-image: url(img/foto-wallpaper.png);
-  background-size: cover;
-  position: absolute;
-  bottom: -30px;
-  right: 0;
 }
 
 .container1 {
@@ -184,6 +172,18 @@ body {
   transform: rotate(20deg);
 }
 
+.project {
+  background-color: #17181c;
+  width: 100%;
+  color: #fff;
+}
+
+.carousel-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 @media (max-width: 1024px) {
   .jumbotron h1 {
     font-size: 6em;
