@@ -27,9 +27,13 @@ $(window).scroll(function () {
     });
   }
 
-  if (wscroll >= 500) {
-    $(".nav .container").css({
-      color: "black",
+  if (wscroll >= 750) {
+    $(".card-container .card").css({
+      opacity: "1",
+    });
+  } else {
+    $(".card-container .card").css({
+      opacity: "0",
     });
   }
 });
