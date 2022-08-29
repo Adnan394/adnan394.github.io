@@ -27,7 +27,7 @@ $(window).scroll(function () {
     });
   }
 
-  if (wscroll >= 750) {
+  if (wscroll >= 700) {
     $(".card-container .card").css({
       opacity: "1",
     });
@@ -36,4 +36,35 @@ $(window).scroll(function () {
       opacity: "0",
     });
   }
+});
+
+$(".btn-detail").on("click", () => {
+  $(".card-detail-layer1").css({
+    transform: "rotateX(0deg)",
+  });
+});
+$(".btn-close").on("click", () => {
+  $(".card-detail-layer1").css({
+    transform: "rotateX(90deg)",
+  });
+});
+$(".btn-detail2").on("click", () => {
+  $(".card-detail-layer2").css({
+    transform: "rotateX(0deg)",
+  });
+});
+$(".btn-close").on("click", () => {
+  $(".card-detail-layer2").css({
+    transform: "rotateX(90deg)",
+  });
+});
+$(".btn-detail3").on("click", () => {
+  $(".card-detail-layer3").css({
+    transform: "rotateX(0deg)",
+  });
+});
+$(".btn-close").on("click", () => {
+  $(".card-detail-layer3").css({
+    transform: "rotateX(90deg)",
+  });
 });
